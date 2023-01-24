@@ -1,0 +1,31 @@
+.filter {
+  display: flex;
+  align-items: center;
+  background-color: rgb(238, 246, 246);
+  color: var(--desaturated-dark-cyan);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.text {
+  padding: 0 0.5em;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.btn {
+  padding: 0.3em 0.6em;
+  border: none;
+  background-color: var(--desaturated-dark-cyan);
+  color: white;
+  height: 100%;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 200ms;
+}
+
+.btn:hover {
+  background-color: var(--dark-grayish-cyan);
+  color: white;
+}
