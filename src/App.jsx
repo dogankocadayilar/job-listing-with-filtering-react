@@ -46,8 +46,6 @@ function App() {
     );
   }, []);
 
-  console.log(filteredUsers);
-
   useEffect(() => {
     setFilteredUsers(
       users.filter(
