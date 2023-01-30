@@ -16,7 +16,7 @@ function UserCard({
 }) {
   return (
     <div className={`${style.card} ${featured ? style.featured : ""}`}>
-      <img src={logo} alt="Profile Picture" className="logo" />
+      <img src={logo} alt="Profile Picture" className={style.logo} />
       <div className={style.info}>
         <span className={style.bold}>{company}</span>
         {isNew && <span className={style.newText}>New!</span>}

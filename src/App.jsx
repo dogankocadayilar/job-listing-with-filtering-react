@@ -58,9 +58,7 @@ function App() {
 
   return (
     <div>
-      {filteredItems.length > 0 && (
-        <FilterBar filtered_items={filteredItems} dispatch={dispatch} />
-      )}
+      <FilterBar filtered_items={filteredItems} dispatch={dispatch} />
       <UserList
         users={filteredUsers.length === 0 ? users : filteredUsers}
         dispatch={dispatch}

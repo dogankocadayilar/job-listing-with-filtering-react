@@ -20,12 +20,17 @@
 
 body {
   margin: 0;
-  background: linear-gradient(
-    180deg,
-    var(--desaturated-dark-cyan) 30vh,
-    var(--background) 30vh
-  );
   background-color: var(--background);
-  background-repeat: no-repeat;
   min-height: 100vh;
+}
+
+main {
+  width: clamp(325px, 80vw, 1100px);
+  margin: 0 auto;
+}
+
+header {
+  background: url("./assets/images/bg-header-desktop.svg");
+  background-color: var(--desaturated-dark-cyan);
+  height: 156px;
 }

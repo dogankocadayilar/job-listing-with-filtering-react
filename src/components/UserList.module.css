@@ -1,19 +1,13 @@
 .list {
   display: flex;
   flex-direction: column;
-  gap: 2em;
-  margin: 2em 0;
-}
-
-.list:only-child {
-  margin-top: 2em;
-  transform: translateY(30vh);
-  margin-bottom: calc(30vh + 2em);
+  gap: 1.5em;
+  margin-top: 0.5em;
+  margin-bottom: 7.5em;
 }
 
 @media (max-width: 375px) {
   .list {
-    margin-top: 3em;
     gap: 3em;
   }
 }
